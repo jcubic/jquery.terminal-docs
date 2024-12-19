@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">What You Can Echo? | jQuery Terminal</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://jcubic.github.io/jquery.terminal-docs/img/docusaurus-social-card.png"><meta data-rh="true" name="twitter:image" content="https://jcubic.github.io/jquery.terminal-docs/img/docusaurus-social-card.png"><meta data-rh="true" property="og:url" content="https://jcubic.github.io/jquery.terminal-docs/docs/deep-dive/echo"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="What You Can Echo? | jQuery Terminal"><meta data-rh="true" name="description" content="echo is the most important method of jQuery Terminal. You use it to print stuff on the terminal."><meta data-rh="true" property="og:description" content="echo is the most important method of jQuery Terminal. You use it to print stuff on the terminal."><link data-rh="true" rel="icon" href="/jquery.terminal-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jcubic.github.io/jquery.terminal-docs/docs/deep-dive/echo"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/jquery.terminal-docs/docs/deep-dive/echo" hreflang="en"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/jquery.terminal-docs/docs/deep-dive/echo" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/jquery.terminal-docs/blog/rss.xml" title="jQuery Terminal RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/jquery.terminal-docs/blog/atom.xml" title="jQuery Terminal Atom Feed"><link rel="stylesheet" href="/jquery.terminal-docs/assets/css/styles.aa728761.css">
-<script src="/jquery.terminal-docs/assets/js/runtime~main.b195e44b.js" defer="defer"></script>
+<script src="/jquery.terminal-docs/assets/js/runtime~main.dd067cbc.js" defer="defer"></script>
 <script src="/jquery.terminal-docs/assets/js/main.bf1a43dd.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -52,9 +52,10 @@ that renders ASCII text using different fonts.</p>
 <p><code>$.terminal.figlet.load</code> async function load all specified fonts, you can see the list of available
 fonts, on <a href="https://patorjk.com/software/taag/" target="_blank" rel="noopener noreferrer">figlet demo website</a> (type some text and click test
 all to see all fonts).</p>
-<p><code>$.terminal.figlet</code> return a function that renders the text using figlet, because of this you have
-responsive text. See below demo how it works, you can resize the window, to see how the ASCII Art
-change.</p>
+<p><code>$.terminal.figlet</code> <a href="https://www.freecodecamp.org/news/higher-order-functions-explained/" target="_blank" rel="noopener noreferrer">returns a
+function</a> that renders the text
+using figlet, because of this you have responsive text. See below demo how it works, you can resize
+the window, to see how the ASCII Art change.</p>
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="xbKqpZG" data-pen-title="Terminal Figlet" data-user="jcubic" style="height:300px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border:2px solid;margin:1em 0;padding:1em"><span>See the Pen <a href="https://codepen.io/jcubic/pen/xbKqpZG">Terminal Figlet</a> by Jakub T. Jankiewicz (<a href="https://codepen.io/jcubic">@jcubic</a>)<!-- --> <!-- -->on <a href="https://codepen.io">CodePen</a>.</span></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="dom-nodes-and-jquery-objects">DOM Nodes and jQuery Objects<a href="#dom-nodes-and-jquery-objects" class="hash-link" aria-label="Direct link to DOM Nodes and jQuery Objects" title="Direct link to DOM Nodes and jQuery Objects">​</a></h2>
 <p>jQuery Terminal don&#x27;t allow to echo HTML directly, to prevent any misbehavior of your users, but you can
