@@ -2,7 +2,7 @@ name: Ping SQLite Cloud
 
 on:
   schedule:
-    - cron: '43 13 * * *'
+    - cron: '43 1,13 * * *'
 
 jobs:
   refresh:
